@@ -39,7 +39,7 @@
 
 @media only screen and (max-width: 900px) {
     .hero-card {
-        flex-basis: 100%;
+        flex-basis: 50%;
     }
 }
 

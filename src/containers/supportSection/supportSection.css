@@ -42,8 +42,8 @@
 
 @media only screen and (max-width: 900px) {
     .service-section-main {
-        background-color: #263238;
-        color: var(--white-color-shade-v2);
+        /* background-color: #263238; */
+        /* color: var(--white-color-shade-v2); */
         text-align: center;
 
     }

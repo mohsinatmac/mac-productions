@@ -35,15 +35,11 @@ const HeroSection = () => {
       <div className="hero-flex container" >
         <div className="hero-section-left">
           <h1>
-            <span>
             We do
-            </span>
             <br/> 
-            <span className="what-we" >
             What we Say
-            </span>
-            </h1>
-          <div>
+          </h1>
+          <div className="hero-left-info-r"  >
           <div className="description" >
             <p>
             MAC Production & Graphics is a company that specializes in the creation of various forms of media content, including commercials, promotional videos, corporate videos, training videos, graphic designs, social media management, documenteries, short films and other multimedia projects. We are responsible for the entire process of media production & digital content creation, from ideation and conceptualization to filming, editing, post-production & graphic designing.

@@ -35,8 +35,11 @@
     align-items: center;
     justify-content: center;
     flex-wrap: wrap;
+    margin: 5rem 0;
+    gap: 2.5rem;
+}
+.service-section-card-margin {
     margin: 0 5rem;
-    
 }
 
 

@@ -23,10 +23,10 @@ const ServiceSection = () => {
                     <p>It Support For Business</p>
                     <h2>Our Services</h2>
                 </div>
-                <div className="services-section-cards" >
+                <div className="services-section-cards container" >
                     {
                     service.map(
-                        service => <ServiceCard name={service.name} greenIcon={service.greenIcon}  image={service.image} info={service.info} key={service.id} pageInfo={service.info} pageImage={service.greenIcon} pageImages={service.images} pageDescription={service.briefInfo}    />
+                        service => <ServiceCard   name={service.name} greenIcon={service.greenIcon}  image={service.image} info={service.info} key={service.id} pageInfo={service.info} pageImage={service.greenIcon} pageImages={service.images} pageDescription={service.briefInfo}    />
                     )
                     }
                 </div>

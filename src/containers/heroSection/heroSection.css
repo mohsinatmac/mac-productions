@@ -16,9 +16,6 @@
 
 .hero-section {
     position: relative;
-    /* background-image: url("../../images/illustration/blob-scene-haikei.svg");
-    background-repeat: no-repeat;
-    background-size: cover; */
 }
 
 
@@ -30,6 +27,7 @@
     justify-content: space-between;
     flex-wrap: wrap;
     padding-top: 10vh;
+    flex-wrap: wrap;
 }
 
 .hero-section-left {
@@ -38,7 +36,7 @@
     align-items: start;
     justify-content: center;
     gap: 12px;
-    width: 50vw;
+    flex: 1;
     z-index: 100;
     
 }
@@ -46,7 +44,6 @@
     text-transform: uppercase;
     font-family: 'DM Sans', sans-serif; 
     font-weight: bold;
-    font-size: 112px;
     line-height: 120px;
 
 }
@@ -72,15 +69,19 @@
     font-size: 16px;
     text-align: justify;
 }
+.hero-section-right {
+    flex: 1;
+    text-align: right;
+}
 .hero-section-right img {
     width: 500px;
     height: 500px;
     transition: all 0.3s;
 }
 
-.hero-section-right {
+/* .hero-section-right {
     transform: translateX(80px);
-}
+} */
 
 
 
@@ -106,7 +107,7 @@
 }
 
 .hero-cards .hero-card {
-    transform: translateY(-200px);
+    transform: translateY(-150px);
 }
 .float{
     display: flex;
@@ -124,7 +125,7 @@
     z-index:2000;
 }
 
-@media only screen and (max-width: 1500px) {
+/* @media only screen and (max-width: 1500px) {
     .hero-flex {
         text-align: center;
         align-items: center;
@@ -132,40 +133,55 @@
     }
     .hero-section-left {
         width: 100%;
-        /* align-items: center; */
         text-align:start;
     }
     .hero-section-right {
         width: 100%;
         align-items: center;
     }
+} 
+*/
+
+@media screen and (max-width: 1150px) {
+    .hero-flex {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+    .hero-section-left {
+        width: 100%;
+        align-items: center;
+        text-align: center;
+    }
+    .hero-left-info-r .description p {
+        text-align: center;
+    }
+    .hero-left-info-r {
+        text-align: center;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        text-align: center;
+    }
 }
 
 @media only screen and (max-width: 900px) {
-    .hero-flex {
-        height: 100vh;
-        align-items: normal;
-        justify-content: normal;
-    }
-    .hero-cards-section {
-        height: 100%;
-        text-align: center;
-    }
     .hero-cards {
-        gap: 10rem;
-    }
-    .hero-section-left {
         align-items: center;
-        text-align: center;
+        justify-content: center;
+    }
+    .hero-cards .hero-card {
+        transform: translateY(-100px);
     }
 }
 
 @media only screen and (max-width: 600px) {
-    .hero-section-right img {
+    /* .hero-section-right img {
         width: 400px;
         height: 400px;
         transition: all 0.3s;
-    }
+    } */
     .float {
         width: 60px;
         height: 60px;
