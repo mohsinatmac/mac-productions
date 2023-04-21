@@ -279,11 +279,13 @@
 .custom-shape-divider-bottom-1681868050 svg {
     position: relative;
     display: block;
-    width: calc(100% + 1.3px);
-    height: 115px;
+    /* width: calc(100% + 1.3px); */
+    /* height: 115px; */
     transform: rotateY(180deg);
+
 }
 
 .custom-shape-divider-bottom-1681868050 .shape-fill {
     fill: #FFFFFF;
 }
+
