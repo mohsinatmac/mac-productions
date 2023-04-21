@@ -4,7 +4,6 @@
     position: relative;
     overflow: hidden;
     text-align: center;
-    /* height: 100vh; */
     overflow: hidden;
     opacity: 1;
     transition: all 0.3s;
@@ -54,7 +53,6 @@
 }
 
 .custom-shape-divider-top-1681868294 {
-    /* position: absolute; */
     top: 0;
     left: 0;
     width: 100%;
@@ -65,8 +63,6 @@
 .custom-shape-divider-top-1681868294 svg {
     position: relative;
     display: block;
-    /* width: calc(100% + 1.3px);
-    height: 72px; */
     transform: rotateY(180deg);
 }
 
@@ -86,8 +82,6 @@
 .custom-shape-divider-bottom-1681868449 svg {
     position: relative;
     display: block;
-    /* width: calc(102% + 1.3px);
-    height: 137px; */
     transform: rotateY(180deg);
 }
 
@@ -101,6 +95,3 @@
 .section-padding-small {
     padding: 3rem 0 !important;
 }
-/* .add-height {
-    height: 100vh;
-} */

@@ -85,15 +85,6 @@
       }
     }
   }
-
-  // .card:hover .face.face2 {
-  //   height: 60px;
-
-  //   h2 {
-  //     font-size: 2em;
-  //   }
-  // }
-
   .card:nth-child(1) .face.face2 {
     background-image: linear-gradient(
       40deg,
@@ -102,6 +93,4 @@
     );
     border-radius: 15px;
   }
-
-
 }
