@@ -26,7 +26,7 @@
     align-items: flex-start;
     justify-content: space-between;
     flex-wrap: wrap;
-    padding-top: 10vh;
+    padding-top: 5vh;
     flex-wrap: wrap;
 }
 
@@ -268,7 +268,7 @@
 
   .custom-shape-divider-bottom-1681868050 {
     position: absolute;
-    bottom: 0;
+    bottom: -5px;
     left: 0;
     width: 100%;
     overflow: hidden;
@@ -279,8 +279,7 @@
 .custom-shape-divider-bottom-1681868050 svg {
     position: relative;
     display: block;
-    /* width: calc(100% + 1.3px); */
-    /* height: 115px; */
+    width: 100%;
     transform: rotateY(180deg);
 
 }
