@@ -31,7 +31,9 @@ const ContactCard = () => {
             Send Message
         </div>
         </form>
-        <img src={contactImage} alt="contact image" />
+        <div className="contact-card-right" >
+            <img src={contactImage} alt="contact image" />
+        </div>
     </div>
   )
 }

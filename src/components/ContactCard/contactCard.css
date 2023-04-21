@@ -21,17 +21,13 @@
 .contact-card-left h2 {
     color: var(--dark-color-shade-v2);
 }
-.contact-card img {
-    width: 30%;
-    height: 30%;
-}
-/* .contact-card-right {
+.contact-card-right {
     flex: 1;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-} */
-
+}
+.contact-card img {
+    width: 100%;
+    height: 100%;
+}
 .contact-card-inputs {
     display: flex;
     align-items: center;
