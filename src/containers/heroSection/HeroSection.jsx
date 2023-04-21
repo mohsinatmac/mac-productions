@@ -10,7 +10,7 @@ const HeroSection = () => {
     {
       name: "Graphic Designing Video Editing",
       info: "We provide a full graphic design and Video Editing services to help you communicate your message",
-      image: adIcon
+      image: adIcon,
     },
     {
       name: "Advertising and Marketing",
