@@ -86,7 +86,7 @@ const HeroSection = () => {
             </g>
             </svg>
         </div> */}
-        <div className="hero-cards container">
+        <div className="hero-cards container section-padding">
           {
             services.map(
               service =>

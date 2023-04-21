@@ -95,13 +95,12 @@ textarea {
     .contact-card-inputs {
         justify-content: center;
     }
-}
-
-@media only screen and (max-width: 600px) {
     .contact-card .input-field {
         width: 100%;
     }
 }
+
+
 
 @media only screen and (max-width: 500px) {
     .contact-card input::placeholder {

@@ -167,21 +167,26 @@
 }
 
 @media only screen and (max-width: 900px) {
+    .hero-section {
+        padding-top: 5rem;
+    }
     .hero-cards {
         align-items: center;
         justify-content: center;
     }
     .hero-cards .hero-card {
-        transform: translateY(-100px);
+        transform: translateY(0px);
+    }
+    .hero-section-left h1 {
+        line-height: normal;
+    }
+    .hero-cards-section {
+        padding: 25rem 0;
     }
 }
 
 @media only screen and (max-width: 600px) {
-    /* .hero-section-right img {
-        width: 400px;
-        height: 400px;
-        transition: all 0.3s;
-    } */
+   
     .float {
         width: 60px;
         height: 60px;
@@ -254,6 +259,7 @@
     .waves {
       height:40px;
       min-height:40px;
+      width: 100%;
     }
     .content {
       height:50vh;

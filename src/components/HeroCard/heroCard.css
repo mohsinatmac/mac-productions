@@ -37,17 +37,37 @@
     width: 100%;
 }
 
-@media only screen and (max-width: 900px) {
+@media screen and (max-width: 900px) {
     .hero-card {
-        flex-basis: 50%;
+        flex-basis: 35%;
+    }
+    .hero-card .hero-icon {
+        transform: translateY(0px);
+        position: initial;
     }
 }
 
-@media only screen and (max-width: 600px) {
+@media screen and (max-width: 750px) {
+    .hero-card {
+        flex-basis: 70%;
+    }
     .hero-card .hero-icon {
-        transform: translateY(-50px);
+        transform: translateY(0px);
+        position: initial;
+    }
+    .hero-card .hero-icon {
+        width: 10rem;
+        height: 10rem;
+    }
+    
+}
+@media only screen and (max-width: 450px) {
+    .hero-card {
+        flex-basis: 100%;
     }
 }
+
+
 
 @media only screen and (max-width: 500px) {
     .hero-card h3, .hero-card p {

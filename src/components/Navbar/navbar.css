@@ -35,10 +35,10 @@
     justify-content: center;
     gap: 50px;
 }
-@media only screen and (max-width: 900px) {
+@media only screen and (max-width: 750px) {
     .navbar {
         padding: 1.2rem 1.2rem;
-        justify-content: center;
+        justify-content: space-between;
 
     }
     .navbar-info-section-mid {
@@ -47,7 +47,7 @@
     .navbar-logo-section {
         justify-content: space-between;
     }
-    .navbar-info-section {
+    /* .navbar-info-section {
         display: none;
-    }
+    } */
 }
