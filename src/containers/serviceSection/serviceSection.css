@@ -95,3 +95,12 @@
 .section-padding-small {
     padding: 3rem 0 !important;
 }
+
+@media (max-width: 350px) {
+    .services-section {
+        padding: 0;
+    }
+    .custom-shape-divider-bottom-1681868449 {
+        bottom: 0;
+    }
+}

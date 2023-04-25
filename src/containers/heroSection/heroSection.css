@@ -11,15 +11,9 @@
     transform: translateX(-50%);
     max-width: 100%;
 }
-
-
-
 .hero-section {
     position: relative;
 }
-
-
-
 .hero-flex {
     color: var(--text-color);
     display: flex;
@@ -29,7 +23,6 @@
     padding-top: 5vh;
     flex-wrap: wrap;
 }
-
 .hero-section-left {
     display: flex;
     flex-direction: column;
@@ -37,15 +30,13 @@
     justify-content: center;
     gap: 12px;
     flex: 1;
-    z-index: 100;
-    
+    z-index: 100;    
 }
 .hero-section-left h1 {
     text-transform: uppercase;
     font-family: 'DM Sans', sans-serif; 
     font-weight: bold;
     line-height: 120px;
-
 }
 .description {
     margin-bottom: 25px;
@@ -78,13 +69,6 @@
     height: 500px;
     transition: all 0.3s;
 }
-
-/* .hero-section-right {
-    transform: translateX(80px);
-} */
-
-
-
 .hero-cards {
     display: flex;
     align-items: center;
@@ -124,24 +108,6 @@
 	box-shadow: 0px 10px 30px rgba(0,0,0,0.6);
     z-index:2000;
 }
-
-/* @media only screen and (max-width: 1500px) {
-    .hero-flex {
-        text-align: center;
-        align-items: center;
-        height: 100vh;
-    }
-    .hero-section-left {
-        width: 100%;
-        text-align:start;
-    }
-    .hero-section-right {
-        width: 100%;
-        align-items: center;
-    }
-} 
-*/
-
 @media screen and (max-width: 1150px) {
     .hero-flex {
         flex-direction: column;
@@ -211,17 +177,22 @@
 
 @media (max-width: 350px) {
     .float {
-        width: 60px;
-        height: 60px;
+        width: 30px;
+        height: 30px;
     }
     .float-icon {
-        width: 40px;
-        height: 40px;
+        width: 20px;
+        height: 20px;
     }
+    .float{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+	position:fixed;
+	bottom:20px;
+	right:10px;
 }
-/*  HERO ANIMATION  */
-
-/* Animation */
+}
 .hero-animation {
     transform: translateY(10px);
     width: 100%;
@@ -265,26 +236,35 @@
       height:50vh;
     }
   }
-
   .custom-shape-divider-bottom-1681868050 {
     position: absolute;
-    bottom: -5px;
+    bottom: -2px;
     left: 0;
     width: 100%;
     overflow: hidden;
     line-height: 0;
     transform: rotate(180deg);
 }
-
 .custom-shape-divider-bottom-1681868050 svg {
     position: relative;
     display: block;
     width: 100%;
     transform: rotateY(180deg);
-
 }
-
 .custom-shape-divider-bottom-1681868050 .shape-fill {
     fill: #FFFFFF;
 }
 
+
+@media (max-width: 380px) {
+    .hero-section {
+        padding-top: 0;
+    }
+    .description {
+        margin-bottom: 10px;
+    }
+    .hero-section-left .description p {
+        font-size: 12px;
+        text-align: center
+    }
+}

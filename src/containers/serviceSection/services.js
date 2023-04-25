@@ -19,16 +19,16 @@ import postIconWhite from "../../images/servicesIcons/servicesIconWhite/post.svg
 import marketingIconGreen from  "../../images/servicesIcons/servicesIconGreen/marketing.svg";
 import contentIconGreen from  "../../images/servicesIcons/servicesIconGreen/content.svg";
 // IMAGES
-import graphicImage from "../../images/servicePage/graphicDesign.jpg";
-import contectCreatorImage from "../../images/servicePage/contentCreator.jpg";
-import digitalMarketingImage from "../../images/servicePage/digitalMarketing.jpg";
-import documentriesImage from "../../images/servicePage/documentries.jpg";
-import facebookImage from "../../images/servicePage/facebookManagment.jpg";
-import instagramImage from "../../images/servicePage/instagramManagment.jpg";
-import postImage from "../../images/servicePage/postProduction.jpg";
-import promotionalImage from "../../images/servicePage/promotionalVideos.jpg";
-import twitterImage from "../../images/servicePage/twitterManagment.jpg";
-import youtubeImage from "../../images/servicePage/youtubeManagment.jpg";
+// import graphicImage from "../../images/servicePage/graphicDesign.jpg";
+// import contectCreatorImage from "../../images/servicePage/contentCreator.jpg";
+// import digitalMarketingImage from "../../images/servicePage/digitalMarketing.jpg";
+// import documentriesImage from "../../images/servicePage/documentries.jpg";
+// import facebookImage from "../../images/servicePage/facebookManagment.jpg";
+// import instagramImage from "../../images/servicePage/instagramManagment.jpg";
+// import postImage from "../../images/servicePage/postProduction.jpg";
+// import promotionalImage from "../../images/servicePage/promotionalVideos.jpg";
+// import twitterImage from "../../images/servicePage/twitterManagment.jpg";
+// import youtubeImage from "../../images/servicePage/youtubeManagment.jpg";
 // 
 
 const services = [
@@ -39,7 +39,7 @@ const services = [
         greenIcon: graphicsIconGreen,
         info: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet, necessitatibus.",
         briefInfo: "Our graphic design services cover a wide range of products – brochures, business cards, publications, mailers, posters and billboards – we’ve pretty much designed it all. With nearly 20 years of experience designing for print and the web, we’ll help your business convert potential clients into paying customers with well designed, printed collateral",
-        images: graphicImage,
+        images: "https://i.postimg.cc/4d0BDW2M/graphic-Design.jpg",
     },
     {
 
@@ -49,7 +49,7 @@ const services = [
         greenIcon: postIconGreen,
         info: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet, necessitatibus.",
         briefInfo: "We Provide state-of-the-art post production facilities. We have a highly talented team of professionals offering Digital Intermediate/Color Grading, Sound, and Picture Post for long and short form content",
-        images: postImage
+        images: "https://i.postimg.cc/2SNXjXjN/post-Production.jpg",
     },
     {
         id:3,
@@ -58,7 +58,7 @@ const services = [
         greenIcon: documentaryIconGreen,
         info: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet, necessitatibus.",
         briefInfo: "We provide faculty/staff workshops on basic documentary skills such as camera, audio, interviewing, storytelling and editing skills",
-        images: documentriesImage
+        images: "https://i.postimg.cc/v8SJyz6G/documentries.jpg",
     },
     {
 
@@ -68,7 +68,7 @@ const services = [
         greenIcon: filmsIconGreen,
         info: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet, necessitatibus.",
         briefInfo: "We ensure our promotional videos look and sound fantastic. Our team of producers, directors, camera operators, animators, and scriptwriters, are there to ensure that your project receives the highest-level attention to detail at all stages of its execution.",
-        images: promotionalImage,
+        images: "https://i.postimg.cc/v8SJyz6G/documentries.jpg",
     },
     {
         id:5,
@@ -77,7 +77,7 @@ const services = [
         greenIcon: facebookIconGreen,
         info: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet, necessitatibus.",
         briefInfo: "We offer monthly and rolling social media management services, as well as custom-quoted services for just about anything you might need in the way of social marketing and advertising strategies",
-        images: facebookImage
+        images: "https://i.postimg.cc/NMHzyQmb/facebook-Managment.jpg",
     },
     {
         id:6,
@@ -86,7 +86,7 @@ const services = [
         greenIcon: youtubeIconGreen,
         info: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet, necessitatibus.",
         briefInfo: "We recognize that each person’s requirements are different and need different degrees of help. For instance, if you are a video producer in-house, however, you need assistance with other processes like video SEO Services and content management, or interacting with your audience and analyzing your metrics We can collaborate to design a system of management specifically tailored to your requirements",
-        images:youtubeImage
+        images:"https://i.postimg.cc/W4X9nNGs/youtube-Managment.jpg",
     },
     {
         id:7,
@@ -95,7 +95,7 @@ const services = [
         greenIcon:  instagramIconGreen,
         info: "We can schedule regular posts that will fit right in with the artistic Instagram aesthetic. We can also help you create a page that attracts real followers",
         briefInfo: "We offer Instagram management services include account monitoring, content creation or curation, audience growth, increased organic engagement, and monthly reporting",
-        images: instagramImage,
+        images: "https://i.postimg.cc/Gt7dnnnR/instagram-Managment.jpg",
     },
     {
         id:8,
@@ -104,7 +104,7 @@ const services = [
         greenIcon: twitterIconGreen,
         info: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet, necessitatibus.",
         briefInfo: "We can identify and assess your audience, determining how best to use Instagram’s powerful targeting capabilities",
-        images: twitterImage,
+        images: "https://i.postimg.cc/4dWrmvLb/twitter-Managment.jpg",
     },
     {
         id:9,
@@ -113,7 +113,7 @@ const services = [
         greenIcon: marketingIconGreen,
         info: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet, necessitatibus.",
         briefInfo: "We provide professional digital marketing services to give you the best digital exposure you deserve. We strongly believe that going digital is the way forward, for any business now, and we try to reflect our beliefs through dedication in our services",
-        images: digitalMarketingImage,
+        images: "https://i.postimg.cc/1zrxZ1Dd/digital-Marketing.jpg",
     },
     {
         id:10,
@@ -122,7 +122,7 @@ const services = [
         greenIcon: contentIconGreen,
         info: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet, necessitatibus.",
         briefInfo: "With content creation services from MAC, we’ll help you create and implement click-worthy content that helps you reach more qualified leads for your business",
-        images: contectCreatorImage,
+        images: "https://i.postimg.cc/26ksk9wS/content-Creator.jpg",
     },
     ];
 

@@ -50,7 +50,6 @@ const HeroSection = () => {
               <p>Meet with Us</p>
             </div>
             </a>
-
           </div>
         </div>
         <div className="hero-section-right">

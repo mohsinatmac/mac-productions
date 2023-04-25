@@ -77,6 +77,18 @@
     .footer-end p {
         font-size: 12px;
     }
+    .footer-icon-wrapper img {
+        width: 32px;
+        height: 32px;
+    }
+    .footer-icon-sub p, .footer-icon-sub .sub {
+        font-size: 14px;
+    }
+}
+@media (max-width: 350px) {
+    .footer-end {
+        text-align: center;
+    }
 }
 .custom-shape-divider-top-1681868556 {
     top: 0;

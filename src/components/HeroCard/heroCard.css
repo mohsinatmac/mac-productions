@@ -76,7 +76,13 @@
 }
 
 @media only screen and (max-width: 350px) {
+    .hero-card {
+        height: 300px;
+    }
     .hero-card .hero-icon {
         transform: translateY(-40px);
+    }
+    .hero-card p {
+        font-size: 12px;
     }
 }
