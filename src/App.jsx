@@ -1,5 +1,5 @@
 import { BrowserRouter, Route, Routes } from "react-router-dom";
-import { HeroSection, SupportSection, ServiceSection, ProjectsSection, FooterSection, PortfolioSection, ServicePage } from "./containers/index";
+import { HeroSection, SupportSection, ServiceSection, ProjectsSection, FooterSection, PortfolioSection, ServicePage, Pagenotfound } from "./containers/index";
 import { Navbar } from "./components/index";
 import { Fragment } from "react";
 
@@ -53,6 +53,7 @@ function App() {
           <FooterSection/>
         </Fragment>
         }/>
+        <Route path="*" Component={Pagenotfound} />
       </Routes>
     </BrowserRouter>
   )

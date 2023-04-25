@@ -131,6 +131,7 @@ a {
 
 .container {
   width: 95%;
+  max-width: 1432px;
   margin: 0 auto;
 }
 

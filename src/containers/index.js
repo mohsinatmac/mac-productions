@@ -6,3 +6,4 @@ export { default as  ProjectsSection } from "./projectsSection/ProjectsSection";
 export { default as  PortfolioSection } from "./portfolioSection/PortfolioSection";
 export { default as  FooterSection } from "./footerSection/FooterSection";
 export { default as  PortfolioPage } from "./portfolioPage/PortfolioPage";
+export { default as  Pagenotfound } from "./pageNotfound/Pagenotfound";

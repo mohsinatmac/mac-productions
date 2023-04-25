@@ -68,7 +68,7 @@ const services = [
         greenIcon: filmsIconGreen,
         info: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet, necessitatibus.",
         briefInfo: "We ensure our promotional videos look and sound fantastic. Our team of producers, directors, camera operators, animators, and scriptwriters, are there to ensure that your project receives the highest-level attention to detail at all stages of its execution.",
-        images: "https://i.postimg.cc/v8SJyz6G/documentries.jpg",
+        images: "https://i.postimg.cc/FH08jXCK/promotional-Videos.jpg",
     },
     {
         id:5,

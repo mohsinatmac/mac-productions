@@ -5,6 +5,8 @@ import adIcon from "../../images/heroIcons/advertisment.svg";
 import webIcon from "../../images/heroIcons/webdev.svg";
 import graphicIcon from "../../images/heroIcons/graphicsdesign.svg";
 import whatsappIcon from "../../images/heroSection/whatsapp.svg";
+
+
 const HeroSection = () => { 
   const services = [
     {
