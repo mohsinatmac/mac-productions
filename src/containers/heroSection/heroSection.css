@@ -151,15 +151,23 @@
     }
 }
 
+@media (max-width: 768px) {
+    .float{
+        bottom:20px;
+        right:10px;
+
+    }
+}
+
 @media only screen and (max-width: 600px) {
    
     .float {
-        width: 60px;
-        height: 60px;
-    }
-    .float-icon {
         width: 40px;
         height: 40px;
+    }
+    .float-icon {
+        width: 20px;
+        height: 20px;
     }
 }
 
@@ -172,6 +180,9 @@
     }
     .hero-cards .hero-card {
         transform: translateY(0px);
+    }
+    .float {
+        display: none;
     }
 }
 
@@ -253,6 +264,12 @@
 }
 .custom-shape-divider-bottom-1681868050 .shape-fill {
     fill: #FFFFFF;
+}
+
+@media (max-width: 768px) {
+    .custom-shape-divider-bottom-1681868050 {
+        bottom: -1px;
+    }
 }
 
 

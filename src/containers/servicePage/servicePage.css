@@ -2,7 +2,6 @@
     display: flex;
     height: 100vh;
     overflow: hidden;
-    /* background-image: url("../../images//illustration/service-blob.svg"); */
     background-repeat: no-repeat;
     background-size: cover;
 }

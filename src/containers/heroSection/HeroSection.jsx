@@ -21,7 +21,7 @@ const HeroSection = () => {
     },
     {
       name: "Development",
-      info: "We offers you a range of development services with a passion for building state-of-the-art websites for your business",
+      info: "We offer you a range of development services with a passion for building state-of-the-art websites for your business",
       image: graphicIcon
     },
   ];
