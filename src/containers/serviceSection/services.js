@@ -18,18 +18,6 @@ import postIconGreen from "../../images/servicesIcons/servicesIconGreen/post.svg
 import postIconWhite from "../../images/servicesIcons/servicesIconWhite/post.svg";
 import marketingIconGreen from  "../../images/servicesIcons/servicesIconGreen/marketing.svg";
 import contentIconGreen from  "../../images/servicesIcons/servicesIconGreen/content.svg";
-// IMAGES
-// import graphicImage from "../../images/servicePage/graphicDesign.jpg";
-// import contectCreatorImage from "../../images/servicePage/contentCreator.jpg";
-// import digitalMarketingImage from "../../images/servicePage/digitalMarketing.jpg";
-// import documentriesImage from "../../images/servicePage/documentries.jpg";
-// import facebookImage from "../../images/servicePage/facebookManagment.jpg";
-// import instagramImage from "../../images/servicePage/instagramManagment.jpg";
-// import postImage from "../../images/servicePage/postProduction.jpg";
-// import promotionalImage from "../../images/servicePage/promotionalVideos.jpg";
-// import twitterImage from "../../images/servicePage/twitterManagment.jpg";
-// import youtubeImage from "../../images/servicePage/youtubeManagment.jpg";
-// 
 
 const services = [
     {

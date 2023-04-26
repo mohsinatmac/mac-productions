@@ -10,6 +10,7 @@ const ServicePage = () => {
     const location = useLocation();
     const data = location.state;
     const servicesList = services;
+  
   return (
     <div className="service-page">
         <div className="left-nav" >
